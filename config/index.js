@@ -6,7 +6,8 @@ module.exports = {
     quasar: path.resolve(__dirname, '../node_modules/quasar-framework/'),
     src: path.resolve(__dirname, '../src'),
     assets: path.resolve(__dirname, '../src/assets'),
-    components: path.resolve(__dirname, '../src/components')
+    components: path.resolve(__dirname, '../src/components'),
+    res: path.resolve(__dirname, '../src/res')
   },
 
   // Progress Bar Webpack plugin format
@@ -53,14 +54,14 @@ module.exports = {
 /*
  * proxyTable example:
  *
-   proxyTable: {
-      // proxy all requests starting with /api
-      '/api': {
-        target: 'https://some.address.com/api',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api': ''
-        }
-      }
-    }
+ proxyTable: {
+ // proxy all requests starting with /api
+ '/api': {
+ target: 'https://some.address.com/api',
+ changeOrigin: true,
+ pathRewrite: {
+ '^/api': ''
+ }
+ }
+ }
  */

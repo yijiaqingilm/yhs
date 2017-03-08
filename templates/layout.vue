@@ -41,7 +41,7 @@
     <div slot="footer" class="toolbar"></div>
     -->
   </q-layout>
-</template>
+</template type="text/ecmascript-6">
 
 <script>
 export default {

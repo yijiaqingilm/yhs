@@ -14,6 +14,7 @@
     <div class="layout-view">
       <div class="logo-container non-selectable no-pointer-events">
         <div class="logo" :style="position">
+          <img src="~res/img/quasar-logo.png" alt="">
           <img src="~assets/quasar-logo.png">
           <p class="caption text-center">
             <span class="desktop-only">Move your mouse.</span>
@@ -25,7 +26,7 @@
   </q-layout>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 var moveForce = 30
 var rotateForce = 40
 
